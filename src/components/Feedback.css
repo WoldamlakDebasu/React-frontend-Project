@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: none;
+}
+
+.feedback h1{
+    padding-top: 2rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+    padding-bottom: 1rem;
+    line-height: 1rem;
+}
+
+.feedback h1:hover{
+    color: orangered;
+    border-color: silver;
+} 
+
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
+    padding-left: 15rem;
+    margin-left: -11rem;
+    
+}
+
+
+input {
+    background-color: silver;
+    color: black;
+}
+
+
+.btn4 {
+    background-color: red;
+    padding: 0.7rem;
+    color: white;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.btn4:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+
+.feed1 {
+    background-color: rgba(85, 51, 255, 0.25);
+    width: 300px;
+    padding: 2.5rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+    margin-left: 5rem;
+}
+
+
+.feed1 ul {
+    list-style-type: none;
+}
+
+
+.feed2 {
+    background-color: rgba(85, 51, 255, 0.25);
+    width: 300px;
+    padding: 2.5rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+    
+}
+
+.feed2 ul {
+    list-style-type: none;
+}
+
+.feed3 {
+    background-color: rgba(85, 51, 255, 0.25);
+    width: 300px;
+    padding: 2.5rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+.feed3 ul {
+    list-style-type: none;
+}
+
+.message {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.message h2{
+    padding-bottom: 2rem;
+    background-color: silver;
+}
+
+.message, .text1 {
+  padding: 0.8rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feed1 {
+        margin-left: 8rem;
+    }
+
+    .feed2 {
+        margin-left: 8rem;
+    }
+    .feed3 {
+        margin-left: 8rem;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .form {
+        padding-right: 1.0rem;
+        padding-left: 6rem;
+        font-size: 15px;
+        margin-right: 5rem;
+    }
+}
+
+
+

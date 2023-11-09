@@ -1,0 +1,226 @@
+* {
+   margin: 0;
+   padding: 0;
+   overflow-x: none;
+}
+
+
+.main-body{
+   margin: 0;
+   padding: 0;
+}
+
+
+
+.head{
+   background-color:rgba(52, 146, 235, 0.4);
+   box-shadow: 3, 5, 7, 0.25;
+   margin-left: 1rem;
+   padding: 2rem;
+   margin-top: 1rem;
+   display: grid;
+   grid-template-columns: 2 1fr;
+   padding-bottom: 0;
+}
+
+.images {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   cursor: pointer;
+   margin: 2rem;
+}
+
+.img1 img {
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 500px;
+   width: 600px;
+}
+
+.img2 img {
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 500px;
+   width: 600px;
+}
+
+.img3 img {
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 500px;
+   width: 600px;
+}
+
+.img4 img {
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 500px;
+   width: 600px;
+}
+
+.images h2 {
+  padding-bottom: 0.75rem;
+  width: 480px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+  padding-left: 8.5rem;
+}
+
+.aboutus {
+   background-color: rgba(103, 51, 255, 0.4);
+   margin-left: 4rem;
+   margin-right: 7rem;
+   padding: 3rem;
+   margin-bottom: 2rem;
+   cursor: pointer;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+
+.aboutus h1{
+   color: blue;
+   padding-bottom: 1rem;
+}
+
+
+.aboutus2 h1 {
+   color:blue;
+   padding-bottom: 1rem;
+}
+
+
+.testimonials {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding-top: 3rem;
+   gap: 1rem;
+   padding-bottom: 1rem;
+}
+
+
+.testimon h1 {
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.test1{
+   background-color: rgba(85, 51, 255, 0.25);
+   border: none;
+   padding: 0.75rem;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+.test1 img{
+  border-radius: 50%;
+  border: 1px solid silver;
+}
+
+.test2{
+   background-color: rgba(85, 51, 255, 0.25);
+   border: none;
+   padding: 0.75rem;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+.test2 img{
+   border-radius: 50%;
+   border: 1px solid silver;
+ }
+ 
+
+.test3{
+   background-color: rgba(85, 51, 255, 0.25);
+   border: none;
+   padding: 0.75rem;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+.test3 img{
+   border-radius: 50%;
+   border: 1px solid silver;
+ }
+ 
+
+@media screen and (max-width: 1024px) {
+   
+
+   body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+   }
+   
+   
+   .aboutus {
+       padding: 0.75rem;
+       font-size: 15px;
+       margin-left: 1rem;
+       margin-right: 2rem;
+     }
+
+
+   .images {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .images img {
+      margin-right: 0.5rem;
+      width: 100%;
+   }
+
+   
+   .images .img1 h2 {
+      margin-left: -8rem;
+      width: 100%;
+   }
+
+
+   .images .img2 h2 {
+      margin-left: -8rem;
+      width: 100%;
+   }
+
+
+   .images .img3 h2 {
+      margin-left: -8rem;
+      width: 100%;
+   }
+
+
+   .images .img4 h2 {
+      margin-left: -8rem;
+      width: 100%;
+   }
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+    .images {
+       display: flex;
+       flex-direction: column;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem; 
+    }
+
+
+    .img1 {
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+
+
+
+

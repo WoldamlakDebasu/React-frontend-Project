@@ -1,0 +1,103 @@
+body {
+  box-sizing: border-box;
+  margin:0;
+  margin-top: 0;
+  padding:0;
+  text-align:center;
+  background-color: silver;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  background-color: rgba(3, 123, 252, 0.45);
+  color:black;
+  width: 100vw;
+  height: 80px;
+}
+
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 0rem;
+  justify-content: space-between;
+  margin-right: 8rem;
+  margin-left: 8rem;
+  padding-top:1.5rem;
+  padding-bottom:1rem;
+  
+}
+
+
+.lists .first, .second, .third, .fourth, .fifth, .sixth {
+  text-decoration: none;
+  
+}
+
+
+.lists .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover{
+  color:orangered;
+  width: 50px;
+  height: 40px;
+}
+
+
+.navbar .bar {
+  display: none;
+}
+
+
+.bar #hidden {
+  display: flex;
+}
+
+
+@media screen and (max-width: 650px) {
+     .navbar .bar {
+      position: relative;
+      display: flex;
+      justify-content: right;
+      margin-right:0px;
+      margin-top: 30px;
+      margin-left: 28rem;
+      width: fit-content;
+      height: fit-content;
+      padding: 0.5rem;
+     }
+
+     .navbar .bar:hover {
+       cursor: pointer;
+       box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+     }
+
+     .navbar .lists {
+      display: none;
+     }
+
+     
+     .navbar #hidden {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-top: 0px;
+      height: 200px;
+      width: 300px;
+      background-color: rgba(0, 0, 0, 0.75);
+     }
+
+     .navbar #hidden .first, .second , .third, .fourth {
+      color: white;
+     }
+
+     .navbar #hidden .first:hover , .second:hover , .third:hover, .fourth:hover {
+      color: orangered;
+     }
+}
+
+
+
+
